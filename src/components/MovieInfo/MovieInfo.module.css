@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: row;
+}
+
+.image {
+  width: 400px;
+  padding: 20px;
+}
+
+.infoContainer {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.title {
+  text-align: center;
+}
+
+.text {
+  font-weight: bold;
+  font-size: 20px;
+}

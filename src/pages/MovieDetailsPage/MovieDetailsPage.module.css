@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 20px;
+  font-size: 20px;
+  color: black;
+}
+
+.linkContainer {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  font-size: 20px;
+}
+
+.information {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: black;
+}
+
+.active {
+  color: rgb(253, 2, 2);
+}
+
+.back {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: rgb(195, 9, 9);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back:hover {
+  background-color: rgb(233, 11, 11);
+}
+
+.backContainer {
+  display: flex;
+  padding-left: 20px;
+  justify-content: left;
+}
+
+.errorContainer {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 40px;
+}

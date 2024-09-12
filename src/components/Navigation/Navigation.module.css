@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  background-color: #183d6a;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+  padding: 10px 10px 10px 45px;
+  margin-bottom: 20px;
+}
+
+.link {
+  color: aliceblue;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.active {
+  color: rgb(195, 9, 9);
+}
