@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 80vh;
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.home {
+  display: inline-block;
+  padding: 10px 30px;
+  background-color: rgb(195, 9, 9);
+  color: white;
+  border: none;
+  border-radius: 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.home:hover {
+  background-color: rgb(233, 11, 11);
+}

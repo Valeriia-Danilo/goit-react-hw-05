@@ -5,6 +5,7 @@ import MovieInfo from "../../components/MovieInfo/MovieInfo";
 import css from './MovieDetailsPage.module.css';
 import clsx from "clsx";
 import Loader from "../../components/Loader/Loader";
+import {Suspense } from 'react';
 
 
 export default function MovieDetailsPage() {
@@ -68,8 +69,10 @@ const NavLinkInfo = (props) => {
         </li>
           </ul>
           </div>
-          </div>
-            <Outlet/>
+        </div>
+        <Suspense fallback={<Loader/>}>
+          <Outlet />
+          </Suspense>
     </div>
         
       
